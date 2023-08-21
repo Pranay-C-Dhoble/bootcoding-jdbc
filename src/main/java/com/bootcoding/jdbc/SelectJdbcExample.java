@@ -52,3 +52,10 @@ public class SelectJDBCExample {
 //Exception is the parent class of all the exceptions that might occur in the code.
 //return type of exception is string
 //printStackTrace() method in Java is a tool used to handle exceptions and errors.
+
+
+
+//The try block contains the code that might throw an exception and the catch block handles those exceptions.
+
+
+
