@@ -6,7 +6,7 @@ import java.sql.Statement;
 public class SelectJDBCExample {
     public static void main(String[] args) {
 
-        try{
+        try{//try is a block of code that is used to test a block of code for errors
             // 1. Load JDBC Driver
             Class.forName("org.postgresql.Driver");
 
@@ -39,9 +39,16 @@ public class SelectJDBCExample {
 
             // 5.Connection CLose;
             conn.close();
-        }catch (Exception ex){
-            ex.printStackTrace();
+        }catch (Exception ex){//catch is a block of code that is used to handle an exception
+            ex.printStackTrace();//printStackTrace() method in Java is a tool used to handle exceptions and errors
         }
     }
 
 }
+//try - catch block is used to handle the exceptions that might occur in the code.
+//The try block contains the code that might throw an exception and the catch block handles those exceptions.
+//The try block cannot be used alone. It must be followed by either catch or finally block.
+
+//Exception is the parent class of all the exceptions that might occur in the code.
+//return type of exception is string
+//printStackTrace() method in Java is a tool used to handle exceptions and errors.
