@@ -57,5 +57,5 @@ public class SelectJDBCExample {
 
 //The try block contains the code that might throw an exception and the catch block handles those exceptions.
 
-
+//handle means to deal with or control a situation or problem
 
